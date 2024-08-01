@@ -71,4 +71,7 @@ input,textarea{
     .container.contact__container {
        width: var(--container-width-sm);
     }
+    #contact{
+        margin-top: 2rem;
+    }  
 }

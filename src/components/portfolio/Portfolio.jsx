@@ -3,6 +3,7 @@ import "./portfolio.css";
 import Img1 from "../../assets/portfolio1.jpg";
 import Img2 from "../../assets/portfolio2.jpg";
 import Img3 from "../../assets/portfolio3.jpg";
+import Project from "../../assets/reactproject.jpg";
 
 
 const Portfolio = () => {
@@ -16,15 +17,22 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      image: Project,
+      title: "E-commerce web (React)",
+      github: "https://github.com/Suneel823/SS_E-comerce",
+      demo: "https://sunel-trends.netlify.app/",
+    },
+    {
+      id: 3,
       image: Img2,
       title: " Weather App",
       github: "https://suneel823.github.io/Weather-app/",
       demo: "https://suneel823.github.io/Weather-app/",
     },
     {
-      id: 3,
+      id: 4,
       image: Img3,
-      title: "E-commerce Shoe Website",
+      title: "Shoe Website",
       github: "https://github.com/Suneel823/Shoe-website",
       demo: "https://suneel823.github.io/Shoe-website/",
     },

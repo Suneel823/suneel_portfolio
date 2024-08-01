@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
-
+import sku from "../../assets/sku.jpg";
 const Header = () => {
   return (
     <header>
@@ -14,12 +14,9 @@ const Header = () => {
 
         <CTA />
         <HeaderSocials />
-
         <div className="me">
-          <img src="https://th.bing.com/th/id/OIP.V1ofvoCBOwgYFy3-MkufxgHaIZ?w=1080&h=1225&rs=1&pid=ImgDetMain" alt="myimage" className="mephoto" />
+          <img src={sku} alt="myimage" className="mephoto" />
         </div>
-
-       
       </div>
     </header>
   );

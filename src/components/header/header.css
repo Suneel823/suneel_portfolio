@@ -58,10 +58,7 @@ font-size:2rem;
     left: calc(50% - 13rem);
     margin-top: 4rem;
     overflow: hidden;
-    border-radius: 5%;
-  
-  
-    
+    border-radius: 5%; 
 }
 .mephoto{
     /* border-radius: 2rem 2rem 4rem 4rem; */
@@ -89,13 +86,34 @@ font-size:2rem;
 
 /*========== Small devices ==========*/
 @media screen and (max-width:600px) {
-    header {
-        height: 100vh;
-    }
-   
-
     .header__socials,
     .scroll__down {
         display: none;
     }
+    header {
+        height: 112vh;
+        padding-top: 4rem;
+        overflow: hidden;
+    }
+    .me {
+        width: 27rem;
+        height: 30rem;
+        position: absolute;
+        left: calc(50% - 13rem);
+        margin-top: 3rem;
+        overflow: hidden;
+        border-radius: 0%; 
+    }
+    .head1{
+        font-size:1.5rem;
+        text-shadow: red 0px 2px;
+        }
+        .text__light{
+            font-size: xx-large;
+        }
+        .username{
+            font-size: 3rem;
+            text-shadow: blueviolet 0px 4px;
+        }
+    
 }

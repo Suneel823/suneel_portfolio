@@ -1,6 +1,6 @@
 .portfolio__container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 2.5rem;
 }
 
@@ -21,7 +21,8 @@
 }
 
 .portfolio__item-image{
-    height: 15rem;
+    height: 10rem;
+    width: 16rem;
     border-radius: 1.5rem;
     overflow: hidden;
     padding: auto;
@@ -58,4 +59,18 @@
         grid-template-columns:1fr;
         gap: 1rem;
      }
+     #portfolio{
+        margin-top: 0rem;
+     }
+     .portfolio__item-image{
+        height: 15rem;
+        width: auto;
+        border-radius: 1.5rem;
+        overflow: hidden;
+        padding: auto;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+       
+    }
 }
